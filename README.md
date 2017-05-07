@@ -6,3 +6,5 @@
 [![pledge](https://bredele.github.io/contributing-guide/community-pledge.svg)](https://github.com/bredele/contributing-guide/blob/master/community.md)
 
 Quick union algorithm or so called lazy approach (avoid doing work until we have to) to resolve dynamic connectivity problems.
+
+Nodes in the quick union algorithm are connected to their parent node, up to the root node (node that does not have a parent node). Two nodes are connected if they have the same root.
