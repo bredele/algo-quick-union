@@ -1,0 +1,31 @@
+{
+  "name": "algo-quick-union",
+  "version": "1.0.0",
+  "description": "Dynamic connectivity with quick union algorithm",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bredele/algo-quick-union.git"
+  },
+  "keywords": [
+    "dynamic",
+    "connectivity",
+    "quick-union",
+    "algorithm"
+  ],
+  "author": "Olvier <olivier.wietrich@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bredele/algo-quick-union/issues"
+  },
+  "homepage": "https://github.com/bredele/algo-quick-union#readme",
+  "devDependencies": {
+    "tape": "^4.6.3"
+  }
+}
