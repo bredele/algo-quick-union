@@ -33,3 +33,11 @@ test('should find two connect nodes', assert => {
   union(ids, 9, 4)
   assert.equal(find(ids, 8, 9), true)
 })
+
+test('test quick unio api', assert => {
+  assert.plan(2)
+  const quickUnion = algo(array(4))
+  assert.equal(quickUnion.connected(1, 2), false)
+  quickUnion.union(1, 2)
+  assert.equal(quickUnion.connected(1, 2), true)
+})
