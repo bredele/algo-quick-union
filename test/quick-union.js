@@ -14,3 +14,22 @@ test('should union two nodes given their ids', assert => {
   union(ids, 4, 3)
   assert.deepEqual(ids, [0, 1, 2, 3, 3, 5])
 })
+
+
+test('should union one node with an other one that belong to a component', assert => {
+  assert.plan(1)
+  const ids = array(10)
+  union(ids, 4, 3)
+  union(ids, 3, 8)
+  assert.deepEqual(ids, [0, 1, 2, 8, 3, 5, 6, 7, 8, 9])
+})
+
+// test('should find two connect nodes', assert => {
+//   assert.plan(2)
+//   const ids = array(10)
+//   union(ids, 4, 3)
+//   union(ids, 3, 8)
+//   assert.equal(find(ids, 8, 9), false)
+//   union(ids, 9, 4)
+//   assert.equal(find(ids, 8, 9), true)
+// })
