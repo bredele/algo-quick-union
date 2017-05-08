@@ -42,7 +42,7 @@ For questions and feedback please use our [twitter account](https://twitter.com/
 
 ## Contribution
 
-This is an open source project and would not exist without its community. If you want to participate please make sure to read our <a href="https://github.com/bredele/contributing-guide/blob/master/community.md" target="_blank">guideline</a> before making a pull request. If you have any project, component or other let everyone know in our wiki.
+This is an open source project and would not exist without its community. If you want to participate please make sure to read our <a href="https://github.com/bredele/contributing-guide/blob/master/community.md" target="_blank">guideline</a> before making a pull request. If you have any related project, component or other let everyone know in our wiki.
 
 
 ## Licence
